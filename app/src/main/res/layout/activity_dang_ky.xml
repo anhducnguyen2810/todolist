@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/background_design"
+    tools:context=".DangKyActivity">
+
+    <EditText
+        android:id="@+id/usrename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Tên người dùng"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_below="@+id/usrename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Mật khẩu"/>
+    <EditText
+        android:id="@+id/repassword"
+        android:layout_below="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Nhập lại mật khẩu"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký"
+        android:id="@+id/btnsingup"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/repassword"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đã có tài khoản. Đăng nhập ngay"
+        android:id="@+id/btnsingin"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/btnsingup"/>
+
+
+
+
+</RelativeLayout>
